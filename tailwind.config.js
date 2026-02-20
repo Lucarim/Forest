@@ -10,6 +10,10 @@ module.exports = {
         sm: "1rem",
       },
     },
+    fontFamilty: {
+      sans: ["DM Sans", "sans-serif"],
+      serif: ["DM Serif Text", "serif"],
+    },
     extend: {
       keyframes: {
         slideIn: {

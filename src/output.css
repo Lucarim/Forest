@@ -990,6 +990,10 @@ video {
   overflow-x: auto;
 }
 
+.scroll-smooth {
+  scroll-behavior: smooth;
+}
+
 .text-balance {
   text-wrap: balance;
 }
@@ -1008,11 +1012,6 @@ video {
 
 .rounded-xl {
   border-radius: 0.75rem;
-}
-
-.bg-verde-400 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(23 232 128 / var(--tw-bg-opacity, 1));
 }
 
 .bg-verde-800 {
@@ -1086,6 +1085,11 @@ video {
   padding-right: 2rem;
 }
 
+.py-1 {
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+}
+
 .py-12 {
   padding-top: 3rem;
   padding-bottom: 3rem;
@@ -1104,11 +1108,6 @@ video {
 .py-8 {
   padding-top: 2rem;
   padding-bottom: 2rem;
-}
-
-.py-1 {
-  padding-top: 0.25rem;
-  padding-bottom: 0.25rem;
 }
 
 .pb-4 {
@@ -1213,11 +1212,6 @@ video {
 .text-verde-300 {
   --tw-text-opacity: 1;
   color: rgb(145 238 119 / var(--tw-text-opacity, 1));
-}
-
-.text-verde-900 {
-  --tw-text-opacity: 1;
-  color: rgb(15 28 21 / var(--tw-text-opacity, 1));
 }
 
 .text-white {
